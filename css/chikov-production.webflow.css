@@ -244,8 +244,9 @@ a {
 }
 
 .chikov-logo.dark {
+  pointer-events: none;
   margin-left: 0;
-  bottom: 3rem;
+  bottom: .5rem;
 }
 
 .svg-2 {
@@ -572,7 +573,7 @@ a {
 
   .chikov-logo.dark {
     width: 55rem;
-    bottom: 3.7rem;
+    bottom: 2rem;
   }
 
   .test-button {
@@ -604,7 +605,7 @@ a {
 
   .chikov-logo.dark {
     width: 44rem;
-    bottom: 4.5rem;
+    bottom: 3rem;
   }
 
   .test-button {
