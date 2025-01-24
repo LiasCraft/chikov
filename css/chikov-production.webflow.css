@@ -108,10 +108,11 @@ a {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   flex-flow: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -555,6 +556,11 @@ a {
   height: 2px;
 }
 
+.text-block-2 {
+  opacity: .7;
+  letter-spacing: 1px;
+}
+
 @media screen and (max-width: 991px) {
   .hero-main {
     margin-top: 21rem;
@@ -629,6 +635,10 @@ a {
     letter-spacing: .4rem;
     max-width: 15em;
     font-size: 1.4rem;
+  }
+
+  .text-block-2 {
+    font-size: .8rem;
   }
 }
 
