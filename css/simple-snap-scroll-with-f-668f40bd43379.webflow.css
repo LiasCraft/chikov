@@ -1133,6 +1133,12 @@ figcaption {
   margin-bottom: 0;
   font-size: 4rem;
   text-decoration: none;
+  transition: all .3s;
+}
+
+.h2:hover {
+  color: #dab4ff;
+  padding-left: .25rem;
 }
 
 .div-block-6 {
@@ -1279,12 +1285,14 @@ figcaption {
   line-height: 1.5;
 }
 
-.div-block-10 {
+.contact-mail {
+  z-index: 2;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
   display: flex;
+  position: relative;
 }
 
 .nav-button-icon-copy {
