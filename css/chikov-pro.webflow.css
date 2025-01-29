@@ -76,6 +76,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul, ol {
   margin-top: 0;
   margin-bottom: 0;
@@ -1034,7 +1038,7 @@ figcaption {
   z-index: -1;
   pointer-events: none;
   margin-left: 0;
-  bottom: -5.5rem;
+  bottom: -10rem;
 }
 
 .progress-bar-bg {
@@ -1440,6 +1444,36 @@ figcaption {
   height: 2px;
 }
 
+.scroll-mouse {
+  cursor: pointer;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;
+  display: flex;
+  position: absolute;
+  bottom: 4rem;
+}
+
+.text-scroll {
+  opacity: .9;
+  color: #d4d5e4;
+  text-align: center;
+  letter-spacing: .5rem;
+  margin-top: -.3rem;
+  margin-left: .3rem;
+  font-size: 1rem;
+}
+
+.mouse-scroll {
+  width: 1.8rem;
+  transition: all .3s;
+}
+
+.mouse-scroll:hover {
+  opacity: .75;
+}
+
 @media screen and (min-width: 1920px) {
   .fullpage-wrapper {
     display: block;
@@ -1780,7 +1814,7 @@ figcaption {
 
   .chikov-logo.dark {
     width: 60.5rem;
-    bottom: -4.5rem;
+    bottom: -9rem;
   }
 
   .h1 {
@@ -1974,7 +2008,7 @@ figcaption {
 
   .chikov-logo.dark {
     width: 42rem;
-    bottom: -1.25rem;
+    bottom: -5.5rem;
   }
 
   .container-v1 {
